@@ -16,7 +16,7 @@ $mail->SMTPAuth = true;                               // Enable SMTP authenticat
 $mail->Username = 'sasha.butovgg@gmail.com';                 // Наш логин
 $mail->Password = '60889rhenJ';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465;                                    // TCP port to connect to
+$mail->Port = 587;                                    // TCP port to connect to
  
 $mail->setFrom('sasha.butovgg@gmail.com', 'Portfolio');   // От кого письмо 
 $mail->addAddress('sasha.butovgg@gmail.com');     // Add a recipient
